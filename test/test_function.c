@@ -1,5 +1,6 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
+#include <CUnit/TestDB.h>
 
 #include <function.h>
 #define PROJECT_NAME "function"
