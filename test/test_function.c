@@ -6,8 +6,8 @@
 #define PROJECT_NAME "function"
 
 /* Prototypes for all the test functions */
-void test_add(int,int);
-void test_subtract(int,int);
+void test_add(void);
+void test_subtract(void);
 
 
 /* Start of the application test */
