@@ -48,7 +48,7 @@ void test_factorial(int) {
   CU_ASSERT(100 == add(95,5));
 }
 
-void test_prime(int) {
+void test_subtract(int) {
   CU_ASSERT(100 == subtract(200,100));
   CU_ASSERT(20 == subtract(60,40));
   CU_ASSERT(44 == subtract(100,56));
