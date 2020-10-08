@@ -19,8 +19,8 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "add", test_add);
-  CU_add_test(suite, "subtract", test_subtract);
+  CU_add_test(suite, "add_func", test_add);
+  CU_add_test(suite, "subtract_func", test_subtract);
 
 
 /* Note: Do not edit START*/
