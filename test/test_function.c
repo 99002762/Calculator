@@ -6,7 +6,7 @@
 #define PROJECT_NAME "function"
 
 /* Prototypes for all the test functions */
-void test_add(int,int);
+void test_factorial(int);
 void test_subtract(int,int);
 
 
@@ -20,7 +20,7 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "add", test_add);
+  CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "subtract", test_subtract);
 
 
@@ -48,7 +48,7 @@ void test_factorial(int) {
   CU_ASSERT(100 == add(95,5));
 }
 
-void test_subtract(int) {
+void test_subtract(int,int) {
   CU_ASSERT(100 == subtract(200,100));
   CU_ASSERT(20 == subtract(60,40));
   CU_ASSERT(44 == subtract(100,56));
