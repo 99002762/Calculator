@@ -5,7 +5,7 @@
 
 #include<math.h>//includes math library files
 
-//function definitions present in calculator project
+//function definitions present in calculator project..
 
 int pro_add(int input1,int input2);
 int pro_subtract(int input1,int input2);
