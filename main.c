@@ -20,42 +20,42 @@ int main()
         case 1:
             printf("\nEnter two number to add");
             scanf("%d%d",&input1,&input2);
-            result = add(input1,input2);
+            result = pro_add(input1,input2);
             printf("%d",result);
             break;
             
         case 2:
             printf("\nEnter two number to subtract");
             scanf("%d%d",&input1,&input2);
-            result = subtract(input1,input2);
+            result = pro_subtract(input1,input2);
             printf("%d",result);
             break;
             
         case 3:
             printf("\nEnter two number to multiply");
             scanf("%d%d",&input1,&input2);
-            result = multiply(input1,input2);
+            result = pro_multiply(input1,input2);
             printf("%d",result);
             break;
             
         case 4:
             printf("\nEnter two number to Divide");
             scanf("%d%d",&input1,&input2);
-            result = divide(input1,input2);
+            result = pro_divide(input1,input2);
             printf("%d",result);
             break;
             
         case 5:
             printf("\nEnter a number for squareroot");
             scanf("%lf",&triginput);
-            trigoutput = squareroot(triginput);
+            trigoutput = pro_squareroot(triginput);
             printf("%lf",trigoutput);
             break;
             
         case 6:
             printf("\nEnter two number to Mod");
             scanf("%d%d",&input1,&input2);
-            result = modulus(input1,input2);
+            result = pro_modulus(input1,input2);
             printf("%d",result);
             break;
             
@@ -63,7 +63,7 @@ int main()
         case 7:
             printf("\nEnter a number for factorial");
             scanf("%d",&input1);
-            result = fact(input1);
+            result = pro_fact(input1);
             printf("%d",result);
             break;
             
@@ -73,7 +73,7 @@ int main()
         case 8:
             printf("\nEnter a number for exponention");
             scanf("%d%d",&input1,&input2);
-            result = power(input1,input2);
+            result = pro_power(input1,input2);
             printf("%d",result);
             break;
             
