@@ -2,58 +2,58 @@
 #include<stdio.h>
 #include<math.h>
 
-int add(int input1,int input2)
+int pro_add(int input1,int input2)//adding the inputs passed and returns the result
 {
     int result = input1+input2;
     return result;
 }
 
-int subtract(int input1,int input2)
+int pro_subtract(int input1,int input2)//removes input2 from input1 the inputs passed and returns the result
 {
     int result = input1-input2;
     return result;
 }
 
 
-int multiply(int input1,int input2)
+int pro_multiply(int input1,int input2)//multiplies  the inputs passed and returns the result
 {
     int result = input1*input2;
     return result;
 }
 
-int divide(int input1,int input2)
+int pro_divide(int input1,int input2)//divide input1 by input2 the inputs passed and returns the result
 {
     int result = input1/input2;
     return result;
 }
 
-double squareroot(double triginput)
+double pro_squareroot(double triginput)// returns the result of suarqeroot of triginput
 {
     double result = sqrt(triginput);
     return result;
 }
 
-int modulus(int input1,int input2)
+int pro_modulus(int input1,int input2)//returns the remainder obtained by doing input1 % input2
 {
     int result = input1 % input2;
     return result;
 }
 
-int fact(int input1)
+int pro_fact(int input1)//returns the factorial value of passed input
 {
-    int i,fact =1;
+    int factorial =1;
     if (input1 < 0)
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
-        for (i = 1; i <= input1; ++i) {
-            fact *= i;
+        for (int i = 1; i <= input1; ++i) {
+            factorial *= i;
         }
-        return fact;
+        return factorial;
     }
 }
 
 
-int power(int input1,int input2)
+int pro_power(int input1,int input2)// returns the power value as input1^input2
 {
     int result = pow(input1,input2);
     return result;
