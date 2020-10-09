@@ -55,5 +55,5 @@ void test_subtract(void) {
   CU_ASSERT(45 == pro_subtract(50,5));
 
   /* Dummy fail*/
-  CU_ASSERT(1 == pro_subtract(6,6));
+  #CU_ASSERT(1 == pro_subtract(6,6));
 }
