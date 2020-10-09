@@ -20,8 +20,8 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "add", test_add);
-  CU_add_test(suite, "subtract", test_subtract);
+  CU_add_test(suite, "pro_add", test_add);
+  CU_add_test(suite, "pro_subtract", test_subtract);
 
 
 /* Note: Do not edit START*/
@@ -38,22 +38,22 @@ int main() {
 }
 /* Write all the test functions */
 void test_add(void) {
-  CU_ASSERT(30 == add(10,20));
-  CU_ASSERT(40 == add(8,32));
-  CU_ASSERT(6 == add(3,3));
-  CU_ASSERT(5040 == add(2520,2520));
-  CU_ASSERT(720 == add(360,360));
+  CU_ASSERT(30 == pro_add(10,20));
+  CU_ASSERT(40 == pro_add(8,32));
+  CU_ASSERT(6 == pro_add(3,3));
+  CU_ASSERT(5040 == pro_add(2520,2520));
+  CU_ASSERT(720 == pro_add(360,360));
 
   /* Dummy fail*/
-  CU_ASSERT(105 == add(95,5));
+  CU_ASSERT(105 == pro_add(95,5));
 }
 
 void test_subtract(void) {
-  CU_ASSERT(100 == subtract(200,100));
-  CU_ASSERT(20 == subtract(60,40));
-  CU_ASSERT(44 == subtract(100,56));
-  CU_ASSERT(45 == subtract(50,5));
+  CU_ASSERT(100 == pro_subtract(200,100));
+  CU_ASSERT(20 == pro_subtract(60,40));
+  CU_ASSERT(44 == pro_subtract(100,56));
+  CU_ASSERT(45 == pro_subtract(50,5));
 
   /* Dummy fail*/
-  CU_ASSERT(1 == subtract(6,6));
+  CU_ASSERT(1 == pro_subtract(6,6));
 }
